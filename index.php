@@ -5,7 +5,7 @@ function getDB() {
     if ($pdo === null) {
         $db_host = 'localhost';
         $db_user = 'u82460';        // ТВОЙ ЛОГИН
-        $db_pass = 'ТВОЙ_ПАРОЛЬ_БД'; // ⚠️ ВСТАВЬ СВОЙ ПАРОЛЬ ОТ БД
+        $db_pass = '1450175'; // ⚠️ ВСТАВЬ СВОЙ ПАРОЛЬ ОТ БД
         $db_name = 'u82460';         // ТВОЯ БД
         try {
             $pdo = new PDO("mysql:host=$db_host;dbname=$db_name;charset=utf8mb4", $db_user, $db_pass);
